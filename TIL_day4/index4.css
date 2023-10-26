@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+header,
+aside,
+main,
+footer {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+}
+
+aside,
+main {
+  background-color: white;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  flex-grow: 1;
+  order: 2;
+}
+
+.sidebar {
+  order: 1;
+  flex-grow: 2;
+}

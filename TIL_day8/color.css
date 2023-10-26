@@ -1,0 +1,17 @@
+.container {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  background-color: black;
+}
+#flip {
+  color: skyblue;
+}

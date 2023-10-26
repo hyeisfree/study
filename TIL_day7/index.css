@@ -1,0 +1,14 @@
+.rating {
+  width: 340px;
+  height: 60px;
+  cursor: pointer;
+  background-image: url("stars.png");
+  background-position: bottom left;
+}
+.stars {
+  width: 340px;
+  height: 60px;
+  cursor: pointer;
+  background-image: url("stars.png");
+  background-position: top left;
+}

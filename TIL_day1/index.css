@@ -1,0 +1,37 @@
+div {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background: red;
+}
+
+/* display
+inline은 컨텐츠 자체만을 꾸며줌.(물건의 크기에 맞춰서 꾸며줌.) 
+inline-block은 한 줄에 여러개를 넣는데, 
+박스 단위로 컨텐츠 사이즈에 상관 없이 지정한 width나 height에 맞춰서 지정됨 
+block은 한 줄에 하나씩 표시됨. */
+
+.container {
+  background: yellow;
+  left: 20px;
+  top: 20px;
+  position: relative;
+}
+
+.box {
+  background: blue;
+  left: 20px;
+  top: 20px;
+  position: sticky;
+}
+
+/* css에서 지정된 디폴트 value인 
+position이 기본값으로 static으로 되어 있음.
+html에 정의된 순서대로 브라우저에 보여짐. 
+relative는 원래의 위치에서 지정한 값에 따라 옮겨가는 것.
+absolute는 내 아이템이 담겨 있는, 
+내 아이템과 가장 가까이에 있는 박스 안에서 위치 변경이 이루어짐.
+fixed는 웹 페이지 안에서 움직임.
+stictky는 원래 있어야 되는 자리에 있으면서 스크롤링되어도 없어지지 않고,
+원래 있던 자리에 고대로 붙어 있는 값.
+*/
