@@ -22,3 +22,6 @@ const gcd = (A, B) => {
   let R = A % B;
   return B === 0 ? num1 : gcd(B, R);
 };
+
+const result = gcd(A, B);
+console.log(result);
