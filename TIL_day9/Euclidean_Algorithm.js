@@ -12,6 +12,10 @@ function greatest(a, b) {
   return greatest(b, a % b);
 }
 
-const getGCD = (a, b) => {
+const getGCD = (a, b) => (b ? getGCD(b, a % b) : a);
+const gcd = getGCD(numerator, denominator);
+
+/* 바로 위에 있는 코드를 풀어서 쓰면, const getGCD = (a, b) => {
   return b ? getGCD(b, a % b) : a;
-};
+}; 재귀함수
+*/
